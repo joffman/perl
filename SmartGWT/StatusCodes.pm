@@ -1,0 +1,23 @@
+package SmartGWT::StatusCodes;
+
+use strict;
+use warnings;
+
+
+our $AUTHORIZATION_FAILURE = -3;
+our $FAILURE = -1;
+our $FILE_REQUIRED_ERROR = -15;
+our $LOGIN_INCORRECT = -5;
+our $LOGIN_REQUIRED = -7;
+our $LOGIN_SUCCESS = -8;
+our $MAX_FILE_SIZE_EXCEEDED = -11;
+our $MAX_LOGIN_ATTEMPTS_EXCEEDED = -6;
+our $MAX_POST_SIZE_EXCEEDED = -12;
+our $OFFLINE = 1;
+our $SERVER_TIMEOUT = -100;
+our $SUCCESS = 0;
+our $TRANSACTION_FAILED = -10;
+our $UPDATE_WITHOUT_PK_ERROR = -9;
+our $VALIDATION_ERROR = -4;
+
+1;
